@@ -8,8 +8,8 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.0</version>
     </parent>
-    <groupId>com.ttulka.samples</groupId>
-    <artifactId>ddd-example-ecommerce</artifactId>
+    <groupId>com.ekart.samples</groupId>
+    <artifactId>ekart-ecommerce</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -55,7 +55,7 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>5.1.0</version><!-- should be fixed in spring boot 3.0.0 -->
+            <version>5.1.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.codehaus.groovy</groupId>
